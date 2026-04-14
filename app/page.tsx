@@ -27,7 +27,7 @@ export default function Home() {
         .contact-item strong { display: block; color: #1a1a1a; font-size: 28px; margin-bottom: 4px; }
       `}} />
 
-      {/* Hero 區塊 - 已換成正宗綠 #009944 */}
+      {/* Hero 區塊 */}
       <div className="hero">
         <div className="avatar">蓉</div>
         <div className="hero-text">
@@ -36,7 +36,7 @@ export default function Home() {
           <div style={{ display: 'flex', flexWrap: 'wrap' }}>
             <span className="badge">在地深耕 18 年</span>
             <span className="badge">現任 MOMO, LUKE 鏟屎官</span>
-            <span className="badge">志工服務百次</span>
+            <span className="badge">志工服務好多次</span>
           </div>
         </div>
       </div>
@@ -48,3 +48,24 @@ export default function Home() {
       </div>
       <div className="policy-card">
         <h3>👵 長者照護</h3>
+        <p>定期舉辦健康講座，增加長青食堂頻率，讓家中的長輩不孤單。</p>
+      </div>
+
+      <div className="section-title">聯絡資訊</div>
+      <div className="contact-bar">
+        <div className="contact-item">
+          <strong>服務處地址</strong>
+          新北市三峽區民權街 88 號
+        </div>
+        <div className="contact-item">
+          <strong>聯絡電話</strong>
+          02-2671-7804
+        </div>
+      </div>
+      
+      <div style={{ textAlign: 'center', color: '#aaa', fontSize: '24px', marginTop: '4rem', paddingBottom: '4rem' }}>
+        <p>© 2026 黃蓉蓉里長候選人辦公室</p>
+      </div>
+    </main>
+  );
+}
