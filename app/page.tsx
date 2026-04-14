@@ -26,7 +26,7 @@ export default function Home() {
           <div style={{ display: 'flex', flexWrap: 'wrap' }}>
             <span className="badge">在地深耕 18 年</span>
             <span className="badge">現任 MOMO, LUKE 鏟屎官</span>
-            <span className="badge">志工服務百次</span>
+            <span className="badge">志工服務蠻多次</span>
           </div>
         </div>
       </div>
