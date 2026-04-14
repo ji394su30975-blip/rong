@@ -25,7 +25,7 @@ export default function Home() {
           <p>里長候選人 ・ 認真做事、貼近民心</p>
           <div style={{ display: 'flex', flexWrap: 'wrap' }}>
             <span className="badge">在地深耕 18 年</span>
-            <span className="badge">現任MOMO,LUKE鏟屎官</span>
+            <span className="badge">現任 MOMO, LUKE 鏟屎官</span>
             <span className="badge">志工服務百次</span>
           </div>
         </div>
@@ -39,3 +39,21 @@ export default function Home() {
       </div>
       <div className="policy-card">
         <h3>👵 長者照護</h3>
+        <p>定期舉辦健康講座，增加長青食堂頻率，讓家中的長輩不孤單。</p>
+      </div>
+
+      {/* 聯絡資訊區塊 */}
+      <div className="section-title">聯絡資訊</div>
+      <div className="contact-bar">
+        <div className="contact-item">
+          <strong>服務處地址</strong>
+          新北市三峽區民權街 88 號
+        </div>
+        <div className="contact-item">
+          <strong>聯絡電話</strong>
+          02-2671-7804
+        </div>
+      </div>
+      
+      {/* 頁尾 */}
+      <div style={{ textAlign: 'center', color: '#aaa', fontSize: '24px', marginTop: '4rem', paddingBottom
