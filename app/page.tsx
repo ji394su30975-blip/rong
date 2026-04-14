@@ -23,9 +23,9 @@ export default function Home() {
           <h1>黃蓉蓉</h1>
           <p>里長候選人 ・ 認真做事、貼近民心</p>
           <div style={{ display: 'flex', flexWrap: 'wrap' }}>
-            <span className="badge">在地深耕 20 年</span>
-            <span className="badge">現任社區理事</span>
-            <span className="badge">志工服務逾百次</span>
+            <span className="badge">在地深耕 18 年</span>
+            <span className="badge">現任MOMO,LUKE鏟屎官</span>
+            <span className="badge">志工服務次</span>
           </div>
         </div>
       </div>
@@ -50,11 +50,11 @@ export default function Home() {
       <div className="contact-bar">
         <div className="contact-item">
           <strong>服務處地址</strong>
-          新北市三峽區某某路 123 號
+          新北市三峽區民權街 88 號
         </div>
         <div className="contact-item">
           <strong>聯絡電話</strong>
-          02-2345-6789
+          02-2671-7804
         </div>
         <div className="contact-item">
           <strong>電子信箱</strong>
@@ -64,7 +64,7 @@ export default function Home() {
 
       {/* 頁尾 */}
       <div style={{ textAlign: 'center', color: '#aaa', fontSize: '12px', marginTop: '4rem', paddingBottom: '2rem' }}>
-        <p>© 2026 黃蓉蓉里長辦公室 ・ 廣告</p>
+        <p>© 2026 黃蓉蓉里長候選人辦公室 ・ 廣告</p>
       </div>
     </main>
   );
