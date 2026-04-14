@@ -31,7 +31,7 @@ export default function Home() {
           <p>里長候選人 ・ 認真做事、貼近民心</p>
           <div style={{ display: 'flex', flexWrap: 'wrap' }}>
             <span className="badge">在地深耕 18 年</span>
-            <span className="badge">現任 MOMO, LUKE 鏟屎官</span>
+            <span className="badge">現任 MOMO, Luka 鏟屎官</span>
             <span className="badge">志工服務百次</span>
           </div>
         </div>
