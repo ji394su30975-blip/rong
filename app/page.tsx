@@ -1,19 +1,20 @@
 export default function Home() {
   return (
-    <main style={{ padding: '1rem 0.5rem', maxWidth: '680px', margin: '0 auto', backgroundColor: '#faf8f0', minHeight: '100vh', fontFamily: 'sans-serif' }}>
+    <main style={{ padding: '2rem 1rem', maxWidth: '1000px', margin: '0 auto', backgroundColor: '#faf8f0', minHeight: '100vh', fontFamily: 'sans-serif' }}>
       <style dangerouslySetInnerHTML={{ __html: `
-        .hero { background: linear-gradient(135deg, #1D9E75 0%, #0F6E56 100%); border-radius: 1rem; padding: 2.5rem 2rem; margin-bottom: 1.5rem; display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; }
-        .avatar { width: 100px; height: 100px; border-radius: 50%; background: #E1F5EE; border: 3px solid #9FE1CB; display: flex; align-items: center; justify-content: center; font-size: 32px; font-weight: 500; color: #0F6E56; flex-shrink: 0; }
-        .hero-text h1 { font-size: 26px; font-weight: 500; color: #fff; margin: 0 0 4px; }
-        .hero-text p { font-size: 15px; color: #9FE1CB; margin: 0 0 12px; }
-        .badge { background: rgba(255,255,255,0.15); border: 0.5px solid rgba(255,255,255,0.3); border-radius: 999px; padding: 4px 14px; font-size: 13px; color: #E1F5EE; margin-right: 8px; margin-bottom: 8px; display: inline-block; }
-        .section-title { font-size: 14px; font-weight: bold; color: #666; margin: 2rem 0 1rem; text-transform: uppercase; letter-spacing: 1px; }
-        .policy-card { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 1.25rem; margin-bottom: 1rem; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
-        .policy-card h3 { font-size: 16px; color: #0F6E56; margin: 0 0 8px; display: flex; align-items: center; gap: 8px; }
-        .policy-card p { font-size: 14px; color: #555; line-height: 1.6; margin: 0; }
-        .contact-bar { background: #fff; border: 1px solid #eee; border-radius: 12px; padding: 1.25rem; display: flex; flex-wrap: wrap; gap: 1.5rem; }
-        .contact-item { font-size: 13px; color: #666; }
-        .contact-item strong { display: block; color: #1a1a1a; font-size: 14px; margin-bottom: 2px; }
+        /* 所有的字體大小都已經調整為原本的 2 倍 */
+        .hero { background: linear-gradient(135deg, #1D9E75 0%, #0F6E56 100%); border-radius: 1.5rem; padding: 4rem 3rem; margin-bottom: 2rem; display: flex; align-items: center; gap: 3rem; flex-wrap: wrap; }
+        .avatar { width: 160px; height: 160px; border-radius: 50%; background: #E1F5EE; border: 5px solid #9FE1CB; display: flex; align-items: center; justify-content: center; font-size: 64px; font-weight: 500; color: #0F6E56; flex-shrink: 0; }
+        .hero-text h1 { font-size: 52px; font-weight: 500; color: #fff; margin: 0 0 8px; }
+        .hero-text p { font-size: 30px; color: #9FE1CB; margin: 0 0 20px; }
+        .badge { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); border-radius: 999px; padding: 8px 24px; font-size: 26px; color: #E1F5EE; margin-right: 12px; margin-bottom: 12px; display: inline-block; }
+        .section-title { font-size: 28px; font-weight: bold; color: #666; margin: 3rem 0 1.5rem; text-transform: uppercase; letter-spacing: 2px; }
+        .policy-card { background: #fff; border: 1px solid #eee; border-radius: 20px; padding: 2rem; margin-bottom: 1.5rem; box-shadow: 0 4px 8px rgba(0,0,0,0.05); }
+        .policy-card h3 { font-size: 32px; color: #0F6E56; margin: 0 0 12px; display: flex; align-items: center; gap: 12px; }
+        .policy-card p { font-size: 28px; color: #555; line-height: 1.6; margin: 0; }
+        .contact-bar { background: #fff; border: 1px solid #eee; border-radius: 20px; padding: 2rem; display: flex; flex-direction: column; gap: 2rem; }
+        .contact-item { font-size: 26px; color: #666; }
+        .contact-item strong { display: block; color: #1a1a1a; font-size: 28px; margin-bottom: 4px; }
       `}} />
 
       {/* Hero 區塊 */}
@@ -25,7 +26,7 @@ export default function Home() {
           <div style={{ display: 'flex', flexWrap: 'wrap' }}>
             <span className="badge">在地深耕 18 年</span>
             <span className="badge">現任MOMO,LUKE鏟屎官</span>
-            <span className="badge">志工服務次</span>
+            <span className="badge">志工服務百次</span>
           </div>
         </div>
       </div>
@@ -38,34 +39,3 @@ export default function Home() {
       </div>
       <div className="policy-card">
         <h3>👵 長者照護</h3>
-        <p>定期舉辦健康講座，增加長青食堂頻率，讓家中的長輩不孤單。</p>
-      </div>
-      <div className="policy-card">
-        <h3>🛡️ 安全守護</h3>
-        <p>增設社區監視器死角，加強夜間巡守隊排班，守護鄰里安全。</p>
-      </div>
-
-      {/* 聯絡資訊 */}
-      <div className="section-title">聯絡蓉蓉</div>
-      <div className="contact-bar">
-        <div className="contact-item">
-          <strong>服務處地址</strong>
-          新北市三峽區民權街 88 號
-        </div>
-        <div className="contact-item">
-          <strong>聯絡電話</strong>
-          02-2671-7804
-        </div>
-        <div className="contact-item">
-          <strong>電子信箱</strong>
-          rong@example.com
-        </div>
-      </div>
-
-      {/* 頁尾 */}
-      <div style={{ textAlign: 'center', color: '#aaa', fontSize: '12px', marginTop: '4rem', paddingBottom: '2rem' }}>
-        <p>© 2026 黃蓉蓉里長候選人辦公室 ・ 廣告</p>
-      </div>
-    </main>
-  );
-}
