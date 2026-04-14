@@ -55,5 +55,10 @@ export default function Home() {
         </div>
       </div>
       
-      {/* 頁尾 */}
-      <div style={{ textAlign: 'center', color: '#aaa', fontSize: '24px', marginTop: '4rem', paddingBottom
+      {/* 頁尾 - 補齊斷掉的部分 */}
+      <div style={{ textAlign: 'center', color: '#aaa', fontSize: '24px', marginTop: '4rem', paddingBottom: '4rem' }}>
+        <p>© 2026 黃蓉蓉里長候選人辦公室</p>
+      </div>
+    </main>
+  );
+}
